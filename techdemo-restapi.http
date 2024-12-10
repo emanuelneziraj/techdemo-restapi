@@ -1,0 +1,6 @@
+@techdemo_restapi_HostAddress = http://localhost:5212
+
+GET {{techdemo_restapi_HostAddress}}/api/Items
+Accept: application/json
+
+###
