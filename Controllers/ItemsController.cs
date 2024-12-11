@@ -31,6 +31,7 @@ namespace WebApi.Controllers
         [HttpPost]
         public ActionResult<Item> Create(Item newItem)
         {
+            newItem.Id = System.Guid.NewGuid();
             items.Add(newItem);
             return CreatedAtAction(nameof(GetById), new { id = newItem.Id }, newItem);
         }
