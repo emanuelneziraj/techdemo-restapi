@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 using WebApi.Models;
-using System.Collections.Generic;
 
 namespace WebApi.Controllers
 {
